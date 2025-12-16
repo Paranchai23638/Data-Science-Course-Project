@@ -1,60 +1,105 @@
-📊 Chula Research Intelligence Platform
-Final Project for Data Science Course (2024) Faculty of Engineering, Chulalongkorn University
+# 📊 Chula Research Intelligence Platform
 
-🎓 About This Project
-This project establishes a Comprehensive Research Intelligence Platform focused on transforming academic data into strategic assets. Utilizing Scopus data (2018–2023), the system integrates three distinct research topics, each utilizing a specialized pipeline consisting of a Data Module, AI Module, and Streamlit Visualization to transform raw academic history into strategic insights.
+**Final Project for Data Science Course (2024)**  
+Faculty of Engineering, Chulalongkorn University
 
-The platform bridges the gap between raw metadata and decision-making, empowering Chulalongkorn University to monitor research landscapes, optimize publication quality, and align academic output with global sustainability goals.
+---
 
-🚀 Key Features & Modules
-The dashboard is divided into three main research analytical pillars:
+## 🎓 About This Project
 
-1. Sustainable Development Goals (SDG) Classification
-Objective: To monitor the university's social impact by tracking alignment with the 17 UN SDGs.
+This project establishes a **Comprehensive Research Intelligence Platform** focused on transforming academic data into strategic assets. Utilizing **Scopus publication data (2018–2023)**, the system integrates three distinct research topics, each implemented through a specialized pipeline consisting of:
 
-AI Tech: Sentence-BERT (S-BERT) for semantic search and zero-shot classification.
+- Data Module  
+- AI Module  
+- Streamlit Visualization  
 
-Functionality:
+These pipelines transform raw academic history into actionable strategic insights.
 
-Automatically maps research titles to specific SDGs (e.g., Climate Action, Good Health).
+The platform bridges the gap between raw metadata and decision-making, empowering **Chulalongkorn University** to monitor research landscapes, optimize publication quality, and align academic output with global sustainability goals.
 
-Drill-down explorer to find top papers in each category.
+---
 
-2. Q1 Publication Quality Prediction
-Objective: To assist researchers in assessing the potential of their work appearing in top-tier (Q1) journals before submission.
+## 🚀 Key Features & Modules
 
-AI Tech: Random Forest Classifier (Supervised Learning).
+The dashboard is divided into **three main research analytical pillars**:
 
-Data Integration: Merged internal records with SCImago Journal Rank (SJR) data.
+---
 
-Functionality:
+### 1. Sustainable Development Goals (SDG) Classification
 
-Real-time Predictor: Users input a draft title and collaboration status to get a success probability score.
+**Objective**  
+Monitor the university's social impact by tracking alignment with the **17 United Nations Sustainable Development Goals (SDGs)**.
 
-Magic Keywords: Visualizes high-impact keywords that correlate with Q1 success.
+**AI Technology**
+- Sentence-BERT (S-BERT)
+- Semantic search and zero-shot classification
 
-3. Research Trends & Network Analysis
-Objective: To uncover hidden research themes and map structural relationships between researchers.
+**Functionality**
+- Automatically maps research titles to specific SDGs  
+  (e.g., Climate Action, Good Health and Well-being)
+- Drill-down explorer to identify top papers within each SDG category
 
-AI Tech: Unsupervised Learning (Topic Modeling) & Graph Algorithms.
+---
 
-Functionality:
+### 2. Q1 Publication Quality Prediction
 
-Topic Modeling: Clusters research into themes (e.g., COVID-19, Machine Learning) to track emerging trends.
+**Objective**  
+Assist researchers in assessing the likelihood of their work being published in **top-tier (Q1) journals** prior to submission.
 
-Collaboration Network: Interactive force-directed graph showing co-authorship clusters and key influencers.
+**AI Technology**
+- Random Forest Classifier (Supervised Learning)
 
-AI Trends: Tracks the exponential growth of AI-related papers across all faculties.
+**Data Integration**
+- Internal publication records
+- SCImago Journal Rank (SJR) dataset
 
-🛠️ Technology Stack
-Language: Python
+**Functionality**
+- **Real-time Predictor**  
+  Users input a draft paper title and collaboration status to receive a Q1 success probability score
+- **Magic Keywords**  
+  Visualization of high-impact keywords correlated with Q1 publication success
 
-Web Framework: Streamlit
+---
 
-Data Manipulation: Pandas, NumPy
+### 3. Research Trends & Network Analysis
 
-Machine Learning: Scikit-Learn (Random Forest), Sentence-Transformers (BERT)
+**Objective**  
+Uncover hidden research themes and map structural relationships between researchers.
 
-Network Analysis: NetworkX, PyVis
+**AI Technology**
+- Unsupervised Learning (Topic Modeling)
+- Graph Algorithms
 
-Visualization: Plotly, Matplotlib
+**Functionality**
+- **Topic Modeling**  
+  Clusters publications into thematic areas (e.g., COVID-19, Machine Learning) to track emerging trends
+- **Collaboration Network**  
+  Interactive force-directed graph displaying co-authorship clusters and key influencers
+- **AI Trends Analysis**  
+  Tracks the exponential growth of AI-related publications across all faculties
+
+---
+
+## 🛠️ Technology Stack
+
+**Programming Language**
+- Python
+
+**Web Framework**
+- Streamlit
+
+**Data Manipulation**
+- Pandas
+- NumPy
+
+**Machine Learning & NLP**
+- Scikit-Learn (Random Forest)
+- Sentence-Transformers (BERT / S-BERT)
+
+**Network Analysis**
+- NetworkX
+- PyVis
+
+**Visualization**
+- Plotly
+- Matplotlib
