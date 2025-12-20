@@ -1,11 +1,19 @@
-The dataset and the trained model are too large to be hosted on GitHub.
+---
 
-Download dataset here:
-https://drive.google.com/file/d/1sTYxLDXaqA5c6ncWunq6xkWK-TLgtHI9/view?usp=sharing
+## 📦 Dataset & Model Files
 
-Download models here:
-https://drive.google.com/file/d/1CKmfABUEwLl678bibRwL4gZtQeqyMsVq/view?usp=sharing
+Due to size limitations, the **dataset** and **trained models** are **not hosted on GitHub**.
 
-After downloading, place the files in:
+### 📥 Download Links
+
+- **Dataset**  
+  https://drive.google.com/file/d/1sTYxLDXaqA5c6ncWunq6xkWK-TLgtHI9/view?usp=sharing
+
+- **Trained Models**  
+  https://drive.google.com/file/d/1CKmfABUEwLl678bibRwL4gZtQeqyMsVq/view?usp=sharing
+
+### 📁 File Placement
+
+After downloading, extract and place the files into the following directory:
 Data_Science_Project
 
